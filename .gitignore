@@ -10,6 +10,15 @@ lerna-debug.log*
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
+# Исключить бинарные файлы
+*.exe
+*.dll
+
+# Исключить директории сборки
+/bin/
+/obj/
+
+
 # Runtime data
 pids
 *.pid
